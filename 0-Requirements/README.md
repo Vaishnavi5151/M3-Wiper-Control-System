@@ -9,19 +9,13 @@ By 1917 John Oeishi formed the Tri-Continental Corporation later to become Trico
 FEATURES
 
 It shall lock the car when the button is pressed once
-
 It shall open the car when the button is pressed twice
-
-It shall wiper on and it moves clock wise direction and when the button is pressed thrice
-
-It shall wiper off and it moves anti clock wise direction and when the button is pressed four times
-
+It shall wiper on and it moves clock wise direction and when the button is pressed thriceIt shall wiper off and it moves anti clock wise direction and when the button is pressed four times
 It shall wiper complete one cycle when the button is pressed five times.
 
 AIM & OBJECTIVE
 
 To prevent the accident during rain conditions
-
 To remove the raindrops, dust, oil or water from the windshield.
 
 RESEARCH
@@ -31,7 +25,6 @@ Application is researched from various resource like from Google, Youtube and re
 END GOALS
 
 Avoid accidents and prevent safety environment.
-
 Clean Visions in Winter and rainy seasons.
 
 SOFTWARE REQUIREMENTS
@@ -51,11 +44,8 @@ The STM32F407 Kit takes advantage of the high-performance STM32F407 microcontrol
 FEATURES OF STM32F407VG MICROCONTROLLER
 
 Up to 1 Mbyte of flash memory
-
 Up to 192+4 Kbytes of SRAM including 64-Kbytes of CCM (Core Coupled Memory) data RAM.
-
 512 bytes of OTP memory.
-
 Flexible static memory controller supporting Compact flash SRAM, PSRAM, NOR and NAND memories
 
 WORKING PRINCIPLE
@@ -66,34 +56,68 @@ USES
 
 This microcontroller is utilised in printing and scanning machines, heat ventilation, air conditioning and security system.
 This module can be found in a variety of household product.
+
 4W'S AND 1H
+
 WHERE
+
 Most of the vehicles have two wipers on the windshield one on the rear windshield and the other on the front windshield. some have a single wiper system.
+
 WHY
+
 The main purpose of the wiper system is to clean the wind screen sufficiently to provide clear visibility at all the time.
+
 WHEN
+
 The main purpose is to be clear the winshield from rain, oil, dust and snow. so that we use wiper whenever these things get struck to the windshield.
+
 WHAT
+
 Wiper system comprises a wiper drive and two wiper arms at a certain angle across the windshield. it is used to remove the dust, water, oil and snow.
+
 HOW
+
 Wiper systems are operated by an electric motor which is attached to a worn gear. It transmits the necessary force to a long rod that sets the wiper arms in motion. The worm gear is able to generate the force required to move the wipers as fast as they need to move.
+
 SWOT ANALYSIS
+
 STRENGTH
+
 Decrease the accidental situation
 Decreases the environmental pollution.
 Decreases the fuel consumption.
 Increase safety
 Capacity increases under shot gaps.
+
 WEEKNESS
+
 Limited speed
 Capacity decreases under conservation gaps.
 cost is high.
 High maintenance.
 Can be frustrating at low penetration rates.
+
 OPPORTUNITIES
+
 Technology maturity may reduce system cost.
 Enables novel MTM application.
+
 THREATS
+
 User acceptance in terms of both purchase intention and frequent activation after purchase.
 Cost
 MTM delayed adapation.
+
+HIGH LEVEL REQUIREMENTS
+
+HR01-It shall Lock the car-Implemented
+HR02-It shall Unlock the car-Implemented
+HR03-It shall Activate Wiper System-Implemented
+HR04-It shall Deactivate Wiper System-Implemented
+
+LOW LEVEL REQUIREMENTS
+
+LR01-If the user pressed the Button ONCE - ON LED RED-Implemented
+LR02-If the user pressed the Button TWICE - OFF LED RED-Implemented
+LR03-If the user pressed the Button THREE times - ON BLUE, GREEN, ORANGE-Implemented
+LR04-If the user pressed the Button FOUR times - IN ORANGE, GREEN, BLUE-Implemented
